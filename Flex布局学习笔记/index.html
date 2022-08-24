@@ -17,17 +17,19 @@
   <meta name="keywords" content="">
   
     <meta name="description" content="前言最近在鼎跃腾继续学习前端，今天老张要我学flex布局，就有了这一篇博客。 一些要点总结：flex布局可以为盒子模型提供很大的灵活性，任何一个容器都可以被指定为flex布局。 flex布局是一种称呼，其他包括伸缩布局弹性布局弹性盒布局，都说的是flex布局。  当父盒子被设定为flex布局后，子元素的float、clear和vertical-align属性都将无效。 采用flex布局的父盒子称为">
-<meta property="og:type" content="article">
+<meta property="og:type" content="website">
 <meta property="og:title" content="Flex布局学习笔记">
-<meta property="og:url" content="http://example.com/2022/08/23/Flex%E5%B8%83%E5%B1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:url" content="http://example.com/Flex%E5%B8%83%E5%B1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="编程随想">
 <meta property="og:description" content="前言最近在鼎跃腾继续学习前端，今天老张要我学flex布局，就有了这一篇博客。 一些要点总结：flex布局可以为盒子模型提供很大的灵活性，任何一个容器都可以被指定为flex布局。 flex布局是一种称呼，其他包括伸缩布局弹性布局弹性盒布局，都说的是flex布局。  当父盒子被设定为flex布局后，子元素的float、clear和vertical-align属性都将无效。 采用flex布局的父盒子称为">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/pics/demo.png">
 <meta property="article:published_time" content="2022-08-23T04:27:47.000Z">
-<meta property="article:modified_time" content="2022-08-23T10:26:49.598Z">
+<meta property="article:modified_time" content="2022-08-24T03:34:45.030Z">
 <meta property="article:author" content="Choukaretsu">
 <meta property="article:tag" content="javascript">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/pics/demo.png">
   
   
   
@@ -36,12 +38,6 @@
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
 
-
-  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
-
-  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
-
-  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
 
 
 
@@ -89,7 +85,7 @@
   <header>
     
 
-<div class="header-inner" style="height: 70vh;">
+<div class="header-inner" style="height: 60vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -182,46 +178,6 @@
         </div>
 
         
-          
-  <div class="mt-3">
-    
-    
-      <span class="post-meta">
-        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-08-23 12:27" pubdate>
-          2022年8月23日 中午
-        </time>
-      </span>
-    
-  </div>
-
-  <div class="mt-1">
-    
-      <span class="post-meta mr-2">
-        <i class="iconfont icon-chart"></i>
-        
-          688 字
-        
-      </span>
-    
-
-    
-      <span class="post-meta mr-2">
-        <i class="iconfont icon-clock-fill"></i>
-        
-        
-        
-          6 分钟
-        
-      </span>
-    
-
-    
-    
-  </div>
-
-
-        
       </div>
 
       
@@ -235,26 +191,17 @@
 
   <main>
     
-      
-
-<div class="container-fluid nopadding-x">
-  <div class="row nomargin-x">
-    <div class="side-col d-none d-lg-block col-lg-2">
-      
-
-    </div>
-
-    <div class="col-lg-8 nopadding-x-md">
-      <div class="container nopadding-x-md" id="board-ctn">
-        <div id="board">
-          <article class="post-content mx-auto">
-            <!-- SEO header -->
-            <h1 style="display: none">Flex布局学习笔记</h1>
-            
-            
-              <div class="markdown-body">
+      <div class="container nopadding-x-md">
+        <div id="board"
+          >
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
                 
-                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近在鼎跃腾继续学习前端，今天老张要我学flex布局，就有了这一篇博客。</p>
+
+<article class="page-content">
+  <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近在鼎跃腾继续学习前端，今天老张要我学flex布局，就有了这一篇博客。</p>
 <h2 id="一些要点"><a href="#一些要点" class="headerlink" title="一些要点"></a>一些要点</h2><p>总结：flex布局可以为盒子模型提供很大的灵活性，任何一个容器都可以被指定为flex布局。</p>
 <p>flex布局是一种称呼，其他包括伸缩布局弹性布局弹性盒布局，都说的是flex布局。</p>
 <ul>
@@ -287,164 +234,28 @@
 <li><p>colunm：从上到下</p>
 </li>
 <li><p>colunm-reverse：从下到上</p>
-<p>![](/Users/lie/博客/myblog/source/pics/截屏2022-08-23 18.24.36.png)</p>
 </li>
 </ul>
+<p>demo示例：</p>
+<p><strong>代码部分</strong></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>2<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><br>        <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>3<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><br>    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span><br><span class="hljs-tag">&lt;<span class="hljs-name">style</span>&gt;</span><span class="language-css"></span><br><span class="language-css">    <span class="hljs-selector-tag">div</span>&#123;</span><br><span class="language-css">        <span class="hljs-attribute">display</span>: flex;</span><br><span class="language-css">        <span class="hljs-attribute">width</span>:<span class="hljs-number">80%</span>;</span><br><span class="language-css">        <span class="hljs-attribute">height</span>: <span class="hljs-number">300px</span>;</span><br><span class="language-css">        <span class="hljs-attribute">background-color</span>: pink;</span><br><span class="language-css">    &#125;</span><br><span class="language-css">    <span class="hljs-selector-tag">div</span> <span class="hljs-selector-tag">span</span>&#123;</span><br><span class="language-css">        <span class="hljs-attribute">width</span>: <span class="hljs-number">150px</span>;</span><br><span class="language-css">        <span class="hljs-attribute">height</span>: <span class="hljs-number">100px</span>;</span><br><span class="language-css">        <span class="hljs-attribute">background-color</span>: blue;</span><br><span class="language-css">        <span class="hljs-attribute">margin-right</span>: <span class="hljs-number">5px</span>;</span><br><span class="language-css">    &#125;</span><br><span class="language-css"></span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span><br></code></pre></td></tr></table></figure>
+
+<p><strong>预览图</strong></p>
+<p><img src="/pics/demo.png" srcset="/img/loading.gif" lazyload alt="demo图片"></p>
 <p>​        </p>
 
-                
+
+  
+
+</article>
+
+
+
               </div>
-            
-            <hr/>
-            <div>
-              <div class="post-metas my-3">
-  
-    <div class="post-meta mr-3 d-flex align-items-center">
-      <i class="iconfont icon-category"></i>
-      
-
-<span class="category-chains">
-  
-  
-    
-      <span class="category-chain">
-        
-  <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/" class="category-chain-item">软件开发</a>
-  
-  
-
-      </span>
-    
-  
-</span>
-
-    </div>
-  
-  
-    <div class="post-meta">
-      <i class="iconfont icon-tags"></i>
-      
-        <a href="/tags/javascript/">#javascript</a>
-      
-    </div>
-  
-</div>
-
-
-              
-  
-
-  <div class="license-box my-3">
-    <div class="license-title">
-      <div>Flex布局学习笔记</div>
-      <div>http://example.com/2022/08/23/Flex布局学习笔记/</div>
-    </div>
-    <div class="license-meta">
-      
-        <div class="license-meta-item">
-          <div>作者</div>
-          <div>Choukaretsu</div>
-        </div>
-      
-      
-        <div class="license-meta-item license-meta-date">
-          <div>发布于</div>
-          <div>2022年8月23日</div>
-        </div>
-      
-      
-      <div class="license-meta-item">
-        <div>许可协议</div>
-        <div>
-          
-            
-            
-              <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
-              <span class="hint--top hint--rounded" aria-label="BY - 署名">
-                <i class="iconfont icon-by"></i>
-              </span>
-              </a>
-            
-          
-        </div>
-      </div>
-    </div>
-    <div class="license-icon iconfont"></div>
-  </div>
-
-
-
-              
-                <div class="post-prevnext my-3">
-                  <article class="post-prev col-6">
-                    
-                    
-                  </article>
-                  <article class="post-next col-6">
-                    
-                    
-                      <a href="/2020/12/01/%E6%97%A5%E8%AF%AD%E5%9F%BA%E7%A1%80/" title="日语基础">
-                        <span class="hidden-mobile">日语基础</span>
-                        <span class="visible-mobile">下一篇</span>
-                        <i class="iconfont icon-arrowright"></i>
-                      </a>
-                    
-                  </article>
-                </div>
-              
             </div>
-
-            
-          </article>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class="side-col d-none d-lg-block col-lg-2">
-      
-  <aside class="sidebar" style="margin-left: -1rem">
-    <div id="toc">
-  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
-  <div class="toc-body" id="toc-body"></div>
-</div>
-
-
-
-  </aside>
-
-
-    </div>
-  </div>
-</div>
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-  
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
     
 
     
@@ -538,72 +349,6 @@
 
 
 
-
-  
-<script>
-  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
-    var toc = jQuery('#toc');
-    if (toc.length === 0 || !window.tocbot) { return; }
-    var boardCtn = jQuery('#board-ctn');
-    var boardTop = boardCtn.offset().top;
-
-    window.tocbot.init({
-      tocSelector     : '#toc-body',
-      contentSelector : '.markdown-body',
-      headingSelector : CONFIG.toc.headingSelector || 'h1,h2,h3,h4,h5,h6',
-      linkClass       : 'tocbot-link',
-      activeLinkClass : 'tocbot-active-link',
-      listClass       : 'tocbot-list',
-      isCollapsedClass: 'tocbot-is-collapsed',
-      collapsibleClass: 'tocbot-is-collapsible',
-      collapseDepth   : CONFIG.toc.collapseDepth || 0,
-      scrollSmooth    : true,
-      headingsOffset  : -boardTop
-    });
-    if (toc.find('.toc-list-item').length > 0) {
-      toc.css('visibility', 'visible');
-    }
-  });
-</script>
-
-
-  <script src=https://lib.baomitu.com/clipboard.js/2.0.10/clipboard.min.js></script>
-
-  <script>Fluid.plugins.codeWidget();</script>
-
-
-  
-<script>
-  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
-    window.anchors.options = {
-      placement: CONFIG.anchorjs.placement,
-      visible  : CONFIG.anchorjs.visible
-    };
-    if (CONFIG.anchorjs.icon) {
-      window.anchors.options.icon = CONFIG.anchorjs.icon;
-    }
-    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
-    var res = [];
-    for (var item of el) {
-      res.push('.markdown-body > ' + item.trim());
-    }
-    if (CONFIG.anchorjs.placement === 'left') {
-      window.anchors.options.class = 'anchorjs-link-left';
-    }
-    window.anchors.add(res.join(', '));
-  });
-</script>
-
-
-  
-<script>
-  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
-    Fluid.plugins.fancyBox();
-  });
-</script>
-
-
-  <script>Fluid.plugins.imageCaption();</script>
 
   <script  src="/js/local-search.js" ></script>
 
