@@ -16,26 +16,28 @@
   <meta name="author" content="Choukaretsu">
   <meta name="keywords" content="">
   
-    <meta name="description" content="stitle: Flex学习笔记date: 2022-8-25 23:51:47tags: 前端categories: 软件开发 前言最近在鼎跃腾继续学习前端，今天老张要我学flex布局，就有了这一篇博客。 一些要点总结：flex布局可以为盒子模型提供很大的灵活性，任何一个容器都可以被指定为flex布局。 flex布局是一种称呼，其他包括伸缩布局弹性布局弹性盒布局，都说的是flex布局。  当父盒">
+    <meta name="description" content="前言最近在鼎跃腾继续学习前端，今天老张要我学flex布局，就有了这一篇博客。 2022-8-25 23:51:47 一些要点总结：flex布局可以为盒子模型提供很大的灵活性，任何一个容器都可以被指定为flex布局。 flex布局是一种称呼，其他包括伸缩布局弹性布局弹性盒布局，都说的是flex布局。  当父盒子被设定为flex布局后，子元素的float、clear和vertical-align属性都">
 <meta property="og:type" content="article">
-<meta property="og:title" content="编程随想">
-<meta property="og:url" content="http://example.com/2022/08/23/Flex%E5%B8%83%E5%B1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:title" content="Flex学习笔记">
+<meta property="og:url" content="http://example.com/2020/12/01/Flex%E5%B8%83%E5%B1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="编程随想">
-<meta property="og:description" content="stitle: Flex学习笔记date: 2022-8-25 23:51:47tags: 前端categories: 软件开发 前言最近在鼎跃腾继续学习前端，今天老张要我学flex布局，就有了这一篇博客。 一些要点总结：flex布局可以为盒子模型提供很大的灵活性，任何一个容器都可以被指定为flex布局。 flex布局是一种称呼，其他包括伸缩布局弹性布局弹性盒布局，都说的是flex布局。  当父盒">
+<meta property="og:description" content="前言最近在鼎跃腾继续学习前端，今天老张要我学flex布局，就有了这一篇博客。 2022-8-25 23:51:47 一些要点总结：flex布局可以为盒子模型提供很大的灵活性，任何一个容器都可以被指定为flex布局。 flex布局是一种称呼，其他包括伸缩布局弹性布局弹性盒布局，都说的是flex布局。  当父盒子被设定为flex布局后，子元素的float、clear和vertical-align属性都">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/images/flex%E5%B8%83%E5%B1%80/flexdemo.png">
 <meta property="og:image" content="http://example.com/images/flex%E5%B8%83%E5%B1%80/y%E8%BD%B4%E4%B8%BB%E8%BD%B4.png">
 <meta property="og:image" content="http://example.com/images/flex%E5%B8%83%E5%B1%80/space-between.png">
 <meta property="og:image" content="http://example.com/images/flex%E5%B8%83%E5%B1%80/space-around.png">
-<meta property="article:published_time" content="2022-08-23T09:26:58.380Z">
-<meta property="article:modified_time" content="2022-08-30T06:02:32.837Z">
+<meta property="article:published_time" content="2020-12-01T15:51:47.000Z">
+<meta property="article:modified_time" content="2022-09-07T05:43:53.548Z">
 <meta property="article:author" content="Choukaretsu">
+<meta property="article:tag" content="前端">
+<meta property="article:tag" content="css">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://example.com/images/flex%E5%B8%83%E5%B1%80/flexdemo.png">
   
   
   
-  <title>编程随想</title>
+  <title>Flex学习笔记 - 编程随想</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -181,7 +183,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text=""></span>
+            <span id="subtitle" data-typed-text="Flex学习笔记"></span>
           
         </div>
 
@@ -192,8 +194,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-08-23 17:26" pubdate>
-          2022年8月23日 下午
+        <time datetime="2020-12-01 23:51" pubdate>
+          2020年12月1日 晚上
         </time>
       </span>
     
@@ -204,7 +206,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          2.2k 字
+          2.1k 字
         
       </span>
     
@@ -215,7 +217,7 @@
         
         
         
-          19 分钟
+          18 分钟
         
       </span>
     
@@ -253,13 +255,13 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none"></h1>
+            <h1 style="display: none">Flex学习笔记</h1>
             
             
               <div class="markdown-body">
                 
-                <p>stitle: Flex学习笔记<br>date: 2022-8-25 23:51:47<br>tags: 前端<br>categories: 软件开发</p>
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近在鼎跃腾继续学习前端，今天老张要我学flex布局，就有了这一篇博客。</p>
+                <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近在鼎跃腾继续学习前端，今天老张要我学flex布局，就有了这一篇博客。</p>
+<p>2022-8-25 23:51:47</p>
 <h2 id="一些要点"><a href="#一些要点" class="headerlink" title="一些要点"></a>一些要点</h2><p>总结：flex布局可以为盒子模型提供很大的灵活性，任何一个容器都可以被指定为flex布局。</p>
 <p>flex布局是一种称呼，其他包括伸缩布局弹性布局弹性盒布局，都说的是flex布局。</p>
 <ul>
@@ -363,6 +365,36 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/" class="category-chain-item">程序设计</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E5%89%8D%E7%AB%AF/">#前端</a>
+      
+        <a href="/tags/css/">#css</a>
+      
+    </div>
   
 </div>
 
@@ -372,8 +404,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div></div>
-      <div>http://example.com/2022/08/23/Flex布局学习笔记/</div>
+      <div>Flex学习笔记</div>
+      <div>http://example.com/2020/12/01/Flex布局学习笔记/</div>
     </div>
     <div class="license-meta">
       
@@ -385,7 +417,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年8月23日</div>
+          <div>2020年12月1日</div>
         </div>
       
       
